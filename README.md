@@ -1,17 +1,17 @@
 # react-to-dijit-adapter
 
-An adapter for react components to run as dijit widgets.
+An adapter for react components to run as dijit widgets. This repo is built for React 18 and was cloned from [https://github.com/episerver/react-to-dijit-adapter](https://github.com/episerver/react-to-dijit-adapter)
 
 ## Installation
 
 **yarn**
 ```sh
-yarn add @episerver/react-to-dijit-adapter
+yarn add react-to-dijit-adapter-18
 ```
 
 **npm**
 ```sh
-npm install @episerver/react-to-dijit-adapter
+npm install react-to-dijit-adapter-18
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ The `asEditorWidget` function will take care or rendering your react component i
 
 ```javascript
 import React from "react";
-import { asEditorWidget } from "@episerver/react-to-dijit-adapter";
+import { asEditorWidget } from "react-to-dijit-adapter-18";
 
 const MyComponent = ({ onChange, value }) => {
     // Your component logic here...

@@ -1,5 +1,5 @@
 {
-    "name": "@episerver/react-to-dijit-adapter-18",
+    "name": "react-to-dijit-adapter-18",
     "version": "1.0.0",
     "main": "dist/bundle.js",
     "types": "dist/index.d.ts",
