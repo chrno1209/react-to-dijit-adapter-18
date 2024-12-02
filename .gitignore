@@ -1,0 +1,8 @@
+# IDE directories
+.vscode/
+
+# Dependency directories
+node_modules/
+
+# Build output directories
+dist/
